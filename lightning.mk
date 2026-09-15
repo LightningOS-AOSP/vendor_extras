@@ -6,13 +6,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Gramophone
-TARGET_INCLUDE_GRAMOPHONE ?= false
-ifeq ($(TARGET_INCLUDE_GRAMOPHONE),true)
-PRODUCT_PACKAGES += \
-    Gramophone
-endif
-
 # Clocks (SystemUI)
 PRODUCT_PACKAGES += \
     SystemUIClocks-BigNum \
